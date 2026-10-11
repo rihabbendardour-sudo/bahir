@@ -3,14 +3,14 @@ const WHATSAPP = "212690634168";   // numéro au format international, sans + ni
 
 // ====== 2. Les produits (modifie ici pour changer le catalogue) ======
 const produits = [
-  { id: 1, nom: "Gel nettoyant doux",   cat: "Nettoyants", prix: 95,  img: "images/gel-nettoyant.svg" },
-  { id: 2, nom: "Sérum vitamine C",     cat: "Sérums",     prix: 180, img: "images/serum-vitc.svg" },
-  { id: 3, nom: "Crème hydratante",     cat: "Crèmes",     prix: 140, img: "images/creme-hydratante.svg" },
-  { id: 4, nom: "Écran solaire SPF 50", cat: "Solaire",    prix: 160, img: "images/ecran-solaire.svg" },
-  { id: 5, nom: "Sérum acide hyaluronique", cat: "Sérums", prix: 170, img: "images/serum-hyaluronique.svg" },
-  { id: 6, nom: "Eau micellaire",       cat: "Nettoyants", prix: 75,  img: "images/eau-micellaire.svg" },
-  { id: 7, nom: "Crème contour des yeux", cat: "Crèmes",   prix: 130, img: "images/contour-yeux.svg" },
-  { id: 8, nom: "Baume à lèvres",       cat: "Corps",      prix: 45,  img: "images/baume-levres.svg" }
+  { id: 1, nom: "Gel nettoyant doux",   cat: "Nettoyants", prix: 95,  img: "gel-nettoyant.svg" },
+  { id: 2, nom: "Sérum vitamine C",     cat: "Sérums",     prix: 180, img: "serum-vitc.svg" },
+  { id: 3, nom: "Crème hydratante",     cat: "Crèmes",     prix: 140, img: "creme-hydratante.svg" },
+  { id: 4, nom: "Écran solaire SPF 50", cat: "Solaire",    prix: 160, img: "ecran-solaire.svg" },
+  { id: 5, nom: "Sérum acide hyaluronique", cat: "Sérums", prix: 170, img: "serum-hyaluronique.svg" },
+  { id: 6, nom: "Eau micellaire",       cat: "Nettoyants", prix: 75,  img: "eau-micellaire.svg" },
+  { id: 7, nom: "Crème contour des yeux", cat: "Crèmes",   prix: 130, img: "contour-yeux.svg" },
+  { id: 8, nom: "Baume à lèvres",       cat: "Corps",      prix: 45,  img: "baume-levres.svg" }
 ];
 
 // ====== 3. Panier (enregistré dans le navigateur) ======
